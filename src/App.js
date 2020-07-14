@@ -10,6 +10,7 @@ import Products from './components/Products';
 import Contact from './components/Contact';
 import Cart from './components/Cart';
 import ProductDetail from './components/ProductDetail';
+import User from './components/User';
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path='/' component={Products} />
             <Route path='/contact' component={Contact} />
             <Route path='/cart' component={Cart} />
+            <Route path='/users' component={User} />
           </Switch>
         </BrowserRouter>
       </div >
